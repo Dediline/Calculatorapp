@@ -46,9 +46,9 @@ public:
 class Interface
 {
 public :
-    void hello();
-    void help();
-    void clear_scr();
-    void info();
+    static void hello();
+    static void help();
+    static void clear_scr();
+    static void info();
 };
 #endif
