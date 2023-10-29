@@ -21,13 +21,16 @@ int main()
 
     switch(type)
     {
-        case 'c' : inter.clear_scr();break;
+        /*case 'c' : inter.clear_scr();break;
         //case 'h' : interface.help();break;
         case 'i' : inter.info();break;
         case 'a' : logic.add(a,b);break;
         case 'd' : logic.divide(a,b);break;
         case 'm' : logic.multiply(a,b);break;
-        case 's' : logic.substract(a,b);break;
+        case 's' : logic.substract(a,b);break;*/
+
+        // can do it without switch, by usg map 
+
         default : return -1;
     }
     return 0;
