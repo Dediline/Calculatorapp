@@ -1,0 +1,3 @@
+C:/C++/Calculatorapp/src/build/CMakeFiles/Calculator.dir
+C:/C++/Calculatorapp/src/build/CMakeFiles/edit_cache.dir
+C:/C++/Calculatorapp/src/build/CMakeFiles/rebuild_cache.dir

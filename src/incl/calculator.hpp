@@ -2,6 +2,11 @@
 #define CALCULATOR_HPP
 #include <cmath>
 #include <iostream>
+#include <Windows.h>
+//#include <csignal>
+
+
+void InterrputSig(int sig);
 
 class Logic
 {
@@ -48,7 +53,7 @@ public:
     }
 };
 
-class Interface
+class Inter
 {
 public :
     static void hello(){std::cout<<"Hello in our calculator app !)\n\tFor now, you can only manipulate numbers with 2 in functions : add, subtract, divide, multiply.\n"

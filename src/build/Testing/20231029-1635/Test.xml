@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231029-1635-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.0-rc3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="ROG"
+	OSRelease=" Professional"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="19179"
+	TotalPhysicalMemory="16235"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2591"
+	>
+	<Testing>
+		<StartDateTime>Oct 29 18:35 Գ[NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xFF][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xE4][NON-UTF-8-BYTE-0xB3][NON-UTF-8-BYTE-0xFF] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1698597358</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 29 18:35 Գ[NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xFF][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xE4][NON-UTF-8-BYTE-0xB3][NON-UTF-8-BYTE-0xFF] ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1698597358</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

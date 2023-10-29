@@ -1,25 +1,33 @@
-#include "calculator.hpp"
+#include "../../../C++/Calculatorapp/src/incl/calculator.hpp"
+
+/*
+void InterrputSig(int sig)
+{
+  exit(sig);
+}
+*/
 
 int main()
 {
-    Interface interface;
-    interface.hello();
+   
+    Inter inter;
+    inter.hello();
     char type{};   
     std::cin>>type;
 
     Logic logic;
-    auto a{0.0},b{0.0};
+    auto a{0.0}; auto b{0.0};
     std::cin>>a>>b;
 
     switch(type)
     {
-        case 'c' : interface.clear_scr(); break;
+        case 'c' : inter.clear_scr();break;
         //case 'h' : interface.help();break;
-        case 'i' : interface.info();break;
-        case 'a' : logic.add(a,b);system("pause");break;
-        case 'd' : logic.divide(a,b);system("pause");break;
-        case 'm' : logic.multiply(a,b);system("pause");break;
-        case 's' : logic.substract(a,b); system("pause");break;
+        case 'i' : inter.info();break;
+        case 'a' : logic.add(a,b);break;
+        case 'd' : logic.divide(a,b);break;
+        case 'm' : logic.multiply(a,b);break;
+        case 's' : logic.substract(a,b);break;
         default : return -1;
     }
     return 0;
